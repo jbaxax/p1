@@ -14,7 +14,7 @@ export default function Navbar() {
 
         <div className="flex gap-6">
           <nav className="hidden md:block">
-            <ul>
+            <ul className="flex">
               <NavLinks />
             </ul>
           </nav>
